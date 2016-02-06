@@ -1,9 +1,10 @@
 <?php
 
-return [
+    return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=db_hrd',
-    'username' => 'root',
-    'password' => '',
+    'dsn' => 'sqlsrv:server=ALFIMR-PC;database=db_hrd',
+     'username' => 'sa',
+     'password' => 'admin',
     'charset' => 'utf8',
 ];
+//jghjghfhgj
